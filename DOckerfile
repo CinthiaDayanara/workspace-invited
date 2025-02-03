@@ -16,5 +16,5 @@ COPY . .
 # Expose the port the service runs on
 EXPOSE 5009
 
-# Define the command to run the application
+
 CMD ["npm", "start"]
