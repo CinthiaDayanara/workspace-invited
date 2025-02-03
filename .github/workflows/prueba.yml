@@ -26,6 +26,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: ./DOckerfile
           push: true
           tags: dayanara1898/workspace-invite:latest
